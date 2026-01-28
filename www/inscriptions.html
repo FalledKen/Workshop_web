@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+</head>
+<body>
+
+<h1>Créez un compte</h1>
+<h2>Formulaire d'inscription</h2>
+
+<form method="post" action="#">
+    <label>Civilité :</label>
+    <select name="civilite">
+        <option>Monsieur</option>
+        <option>Madame</option>
+    </select><br><br>
+
+    <label>Nom :</label>
+    <input type="text" name="nom"><br><br>
+
+    <label>Prénom :</label>
+    <input type="text" name="prenom"><br><br>
+
+    <label>Email :</label>
+    <input type="email" name="email"><br><br>
+
+    <label>Mot de passe :</label>
+    <input type="password" name="mdp" minlength="8"><br><br>
+
+    <label>Confirmation :</label>
+    <input type="password" name="confirmation" minlength="8"><br><br>
+
+    <input type="submit" value="Envoyer">
+    <input type="reset" value="Réinitialiser">
+</form>
+
+</body>
+</html>
